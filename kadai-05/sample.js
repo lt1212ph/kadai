@@ -1,13 +1,8 @@
-const obj = {
-    'a' : 12345,
-    'b' : 'こんにちは',
-    "hello-world": 'ハイフンを含むキーに対応するプロパティ'
+const person = {
+    name: 'arai',
+    age: 21,
+    'has-cat': false
 }
 
-console.log (obj.a)
-console.log (obj.b)
-// console.log(obj.hello-world)
-
-console.log (obj['a'])
-console.log (obj['b'])
-console.log(obj['hello-world'])
+// console.log(person.has-cat) -が加減算の演算子として解釈される
+console.log(person['has-cat'])
